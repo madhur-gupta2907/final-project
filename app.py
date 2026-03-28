@@ -232,6 +232,4 @@ elif view == "ML Forecast":
             line=dict(dash="dash")
         ))
 
-        st.plotly_chart(fig, width="stretch")  # ✅ fixed
-
-        st.success("✅ Random Forest Forecast Generated")
+        st.plotly_chart(fig, width="stretch")  
